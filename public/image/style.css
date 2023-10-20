@@ -1,0 +1,103 @@
+/* Entire Page Styling */
+body {
+    background-image: url('images/background1.jpeg');
+    font-family: Arial, sans-serif;
+    color: rgb(238, 152, 152);
+    margin: 0; /* Add this to reset default margin */
+    padding: 0; /* Add this to reset default padding */
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust background color and opacity */
+    border-radius: 10px; /* Increase border radius for a rounded look */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0; /* Increase padding for better spacing */
+    background-color: #bb67ad;
+    color: #fff;
+    opacity: 0.7; /* Reduce opacity for a lighter look */
+    position: relative;
+}
+
+/* Header */
+header {
+    background-color: #bb67ad;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Increase padding for better spacing */
+    opacity: 0.7; /* Reduce opacity for a lighter look */
+    position: relative;
+}
+
+header img {
+    width: 45px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(202, 76%, 69%);
+}
+
+.welcomemsg {
+    font-family: cursive;
+    color: #de9ee3; /* Adjust text color */
+    font-size: 24px; /* Increase font size */
+}
+
+.stmt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px; /* Adjust font size */
+}
+
+#button {
+    display: inline-block;
+    background-color: #e4faa9;
+    color: #bb67ad;
+    padding: 12px 28px;
+    border: 3px solid rgb(221, 142, 142);
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px; /* Increase font size */
+    cursor: pointer;
+}
+
+#button:hover {
+    border: none;
+    box-shadow: 0 0 10px rgb(252, 157, 157); /* Adjust box-shadow */
+    padding: 14px 30px;
+}
+
+#profimg {
+    border-radius: 50%;
+    border: 3px inset #90d1ef;
+    max-width: 200px; /* Adjust max-width */
+    height: auto;
+    margin: 20px auto; /* Center the image */
+    display: block; /* Remove float and center the image */
+}
